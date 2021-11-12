@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="CreateAccount for Chrome">
+        <parameter name="browser" value="win_chrome"></parameter>
+        <classes>
+            <class name="tests.createaccount.CreateAccountTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="CreateAccount for Opera">
+        <parameter name="browser" value="win_opera"></parameter>
+        <classes>
+            <class name="tests.createaccount.CreateAccountTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="CreateAccount for Edge">
+        <parameter name="browser" value="win_edge"></parameter>
+        <classes>
+            <class name="tests.createaccount.CreateAccountTest"></class>
+        </classes>
+    </test>
+</suite>
