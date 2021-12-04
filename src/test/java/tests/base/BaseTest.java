@@ -13,16 +13,7 @@ import static common.Config.CLEAR_COOKIES_AND_STORAGE;
 import static common.Config.HOLD_BROWSER_OPEN;
 
 public class BaseTest {
-    /*
-    @DataProvider(name = "browser")
-    public static Object[][] dbData() {
-        return new Object[][]{
-                {WIN_OPERA},
-                {WIN_CHROME},
-                {WIN_EDGE}
-        };
-    }
-*/
+
     protected WebDriver driver;
     protected BasePage basePage;
     protected AutomationpracticeHomePage automationpracticeHomePage;

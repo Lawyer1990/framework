@@ -1,0 +1,21 @@
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Started -> org.testng.TestRunner@57c00115
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Test was START! -> checkCreateAccount
+04-12-2021 18:33 ERROR [main] ERROR listener.TestListener: - Error message didn't appear
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkCreateAccount
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Test was START! -> checkFillOutFields
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkFillOutFields
+04-12-2021 18:33  INFO [main] INFO listener.TestListener: - Finished -> org.testng.TestRunner@57c00115
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Started -> org.testng.TestRunner@6dc1dc69
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Test was START! -> checkCreateAccount
+04-12-2021 18:36 ERROR [main] ERROR listener.TestListener: - Error message didn't appear
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkCreateAccount
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Test was START! -> checkFillOutFields
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkFillOutFields
+04-12-2021 18:36  INFO [main] INFO listener.TestListener: - Finished -> org.testng.TestRunner@6dc1dc69
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Started -> org.testng.TestRunner@53a84ff4
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Test was START! -> checkCreateAccount
+04-12-2021 18:37 ERROR [main] ERROR listener.TestListener: - Error message didn't appear
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkCreateAccount
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Test was START! -> checkFillOutFields
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Test was PASS! -> checkFillOutFields
+04-12-2021 18:37  INFO [main] INFO listener.TestListener: - Finished -> org.testng.TestRunner@53a84ff4

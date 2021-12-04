@@ -1,6 +1,5 @@
 package tests.createaccount;
 
-import common.CommonActions;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import tests.base.BaseTest;
@@ -15,11 +14,14 @@ public class CreateAccountTest extends BaseTest {
         basePage.open(AUTOMATIONPRACTICE_LOGIN_PAGE);
         automationpracticeLoginPage
                 .enterLoginNewAccount()
+                .changeColorJs()
                 .clickButtonCreateAnAccount()
                 .findErrorMessage();
-    }
+     }
     @Test
     public void checkFillOutFields(){
         automationpracticeRegistrationPage.clickGender();
     }
+
+
 }
